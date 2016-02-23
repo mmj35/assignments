@@ -15,13 +15,26 @@ public class BlackJack {
 		
 		String input="";
 		
-		do{
+		while(true) { 
 		
-		System.out.println("Do you want to play a hand? Yes or No?");
-		input= keyboard.nextLine();
-		System.out.println(input);
+			do{
 		
-		}while(!(input.equalsIgnoreCase("yes")||input.equalsIgnoreCase("no")));
+				System.out.println("Do you want to play a hand? Yes or No?");
+				input= keyboard.nextLine();
+				System.out.println(input);
+		
+			}while(!(input.equalsIgnoreCase("yes")||input.equalsIgnoreCase("no")));
+			
+			if(input.equalsIgnoreCase("no")) {
+				break;
+			}else{
+			
+			
+			
+			}
+				
+			
+		}
 		
 		
 		
