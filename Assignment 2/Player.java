@@ -30,6 +30,17 @@ public class Player {
 		 public int getMoney() {
 		 	return Money;
 		 }
+		 
+		 public void setHands(int h) {
+		 	hands=h;
+		 }
+		 public void setHandsWon(int w) {
+		 	handsWon=w;
+		 }
+		 public void setMoney(int m) {
+		 	Money=m;
+		 }
+		 	
 	}
 
 		

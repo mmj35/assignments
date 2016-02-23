@@ -29,6 +29,9 @@ public class BlackJack {
 				break;
 			}else{
 			
+			ArrayList<Card>playerHand= new Arraylist<Card>();
+			
+			ArrayList<Card>dealerHand= new Arraylist<Card>();			
 			
 			
 			}
