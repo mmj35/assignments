@@ -11,9 +11,19 @@ public class BlackJack {
 		
 		Player user= new Player(name, 0, 0, 100);
 		
-		System.out.print("Name:                " + name);
-		System.out.print("Total Hands won             0");
-		System.out.print("Money:                      0");                 
-	
+		System.out.println(user);
+		
+		String input="";
+		
+		do{
+		
+		System.out.println("Do you want to play a hand? Yes or No?");
+		input= keyboard.nextLine();
+		System.out.println(input);
+		
+		}while(!(input.equalsIgnoreCase("yes")||input.equalsIgnoreCase("no")));
+		
+		
+		
 	}
 }

@@ -11,6 +11,13 @@ public class Player {
 			this.handsWon=handsWon;
 			this.Money=Money;	
 		}
+		
+		public String toString() {
+		
+			return "\nName:   " + name + "\n"+ "hands:    " + hands + "\n" + "handsWon:    " 
+							+ handsWon + "\n" + "Money:   " + Money + "\n";
+		}
 	}
 	
+		
 	
