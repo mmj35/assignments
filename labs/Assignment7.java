@@ -57,8 +57,8 @@ public class Assignment7 {
 		if(input.equalsIgnoreCase("save")) {
 			PrintWriter writer = new PrintWriter("universe.txt","UTF-8");
 			int counter1=0;
-			int	counter2=0;
-			int counter3=0;
+			int	counter2=1;
+			int counter3=2;
 			for(int x=0;x<size;x++) {
 				writer.print(land[x]);
 					if(land[x]=='0') {
