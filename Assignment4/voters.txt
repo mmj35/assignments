@@ -1,0 +1,5 @@
+1234:Hermione Granger:false
+2345:Ron Weasley:false
+3456:Fred Weasley:false
+4567:Severus Snape:false
+5678:Voldemort:false
