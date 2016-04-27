@@ -115,9 +115,9 @@ public class Assig4 {
 		String filename = scan.nextLine();
 		
 		//Opens files for scanners
-		File votes = new File("C:\\Users\\Sauce\\Workspace\\Assignment4\\src\\votes.txt");
-		File file = new File("C:\\Users\\Sauce\\Workspace\\Assignment4\\src\\"+filename);
-		File voters = new File("C:\\Users\\Sauce\\Workspace\\Assignment4\\src\\voters.txt");
+		File votes = new File("C:\\Users\\Melody\\Workspace\\Assignment4\\src\\votes.txt");
+		File file = new File("C:\\Users\\Melody\\Workspace\\Assignment4\\src\\"+filename);
+		File voters = new File("C:\\Users\\Melody\\Workspace\\Assignment4\\src\\voters.txt");
 	
 		try
 		{//Beginning of Try
